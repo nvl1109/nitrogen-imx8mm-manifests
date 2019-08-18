@@ -10,6 +10,7 @@
   <remote fetch="https://github.com/OSSystems" name="oss"/>
   <remote fetch="https://github.com/meta-qt5" name="meta-qt5-repo"/>
   <remote fetch="https://github.com/meta-rust" name="rust"/>
+  <remote fetch="https://github.com/nvl1109" name="linh" />
 
   <project remote="yocto" revision="3bc700a12d4f21a5c7a1575da0972f9f78b4a091" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="08173f472244817b85fe4af8ab2add7a0090b122" name="meta-freescale" path="sources/meta-freescale"/>
@@ -28,5 +29,7 @@
   <project remote="meta-qt5-repo" revision="0b0a608ddc55acf1f817aee03e65a06017239bed" name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="boundary" name="meta-boundary" path="sources/meta-boundary"/>
   <project remote="rust" revision="0621067c560f6e3e1a4c4c08ac173393bbafad5c" name="meta-rust" path="sources/meta-rust"/>
+
+  <project remote="linh" revision="master" name="meta-linh-imx8mm" path="sources/meta-linh-imx8mm" />
 
 </manifest>
