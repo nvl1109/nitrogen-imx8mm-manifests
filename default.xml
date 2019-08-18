@@ -17,7 +17,7 @@
 
   <project remote="oe" revision="24dd9328f7ec964bbad25b7061366f9f2ff6194d" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="boundary" name="boundary-bsp-base" path="sources/base">
+  <project remote="linh" name="boundary-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
